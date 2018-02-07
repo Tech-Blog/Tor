@@ -32,7 +32,7 @@ apt-get update -q -y
 echo "$(tput setaf 6)Installing hostapd...$(tput sgr0)"
 apt-get install hostapd
 
-echo "$(tput setaf 6)Installing ISC DHCP server...$(tput sgr0)"
+
 apt-get install isc-dhcp-server
 
 echo "$(tput setaf 6)Configuring ISC DHCP server...$(tput sgr0)"
